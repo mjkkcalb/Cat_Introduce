@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Ex1useEffect from "./Ex/Ex1useEffect";
+import Ex2useEffect from "./Ex/Ex2useEffect";
+import Friends from "./catFriends/Friends";
+import UseEffect3 from "./components/UseEffect3";
+import UseEffect4 from "./components/UseEffect4";
+import UseEffect5 from "./components/UseEffect5";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <UseEffect3 />
+      <UseEffect4 />
+      <UseEffect5 />
+      <Ex1useEffect />
+  <Ex2useEffect /> */}
+      <Friends />
+    </>
   );
 }
 
